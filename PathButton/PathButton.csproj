@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7ADC7AEB-E543-4BA5-99F4-C11B45927CB5}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PathButton</RootNamespace>
+    <AssemblyName>PathButton</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <DevInstrumentationEnabled>True</DevInstrumentationEnabled>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\R.cs.flag" />
+    <None Include="obj\Debug\__library_projects__\PathbuttonLib.stamp" />
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Resources\Resource.axml">
+      <SubType>AndroidResource</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\Debug\acw-map.txt" />
+    <Content Include="obj\Debug\PathButton.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\PathButton.dll" />
+    <Content Include="obj\Debug\PathButton.pdb" />
+    <Content Include="obj\Debug\resolved_assemblies.txt" />
+    <TransformFile Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\anim\sat_item_anim_click.xml" />
+    <TransformFile Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\anim\sat_item_anticipate_interpolator.xml" />
+    <TransformFile Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\anim\sat_item_click_interpolator.xml" />
+    <TransformFile Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\anim\sat_item_in_rotate_interpolator.xml" />
+    <TransformFile Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\anim\sat_item_out_rotate_interpolator.xml" />
+    <TransformFile Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\anim\sat_item_overshoot_interpolator.xml" />
+    <TransformFile Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\anim\sat_main_rotate_left.xml" />
+    <TransformFile Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\anim\sat_main_rotate_right.xml" />
+    <Content Include="obj\Debug\res\drawable\icon.png" />
+    <Content Include="obj\Debug\res\drawable\ic_1.png" />
+    <Content Include="obj\Debug\res\drawable\ic_2.png" />
+    <Content Include="obj\Debug\res\drawable\ic_3.png" />
+    <Content Include="obj\Debug\res\drawable\ic_4.png" />
+    <Content Include="obj\Debug\res\drawable\ic_5.png" />
+    <Content Include="obj\Debug\res\drawable\ic_6.png" />
+    <Content Include="obj\Debug\res\drawable\ic_launcher.png" />
+    <Content Include="obj\Debug\res\drawable\main.png" />
+    <TransformFile Include="obj\Debug\res\layout\main.xml" />
+    <TransformFile Include="obj\Debug\res\values\strings.xml" />
+    <Content Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\drawable\sat_item.png" />
+    <Content Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\drawable\sat_main.png" />
+    <TransformFile Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\layout\sat_item_cr.xml" />
+    <TransformFile Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\layout\sat_main.xml" />
+    <TransformFile Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\values\sat_attrs.xml" />
+    <TransformFile Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\res\values\sat_strings.xml" />
+    <Content Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\__res_name_case_map.txt" />
+    <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\drawable\ic_1.png" />
+    <AndroidResource Include="Resources\drawable\ic_2.png" />
+    <AndroidResource Include="Resources\drawable\ic_3.png" />
+    <AndroidResource Include="Resources\drawable\ic_4.png" />
+    <AndroidResource Include="Resources\drawable\ic_5.png" />
+    <AndroidResource Include="Resources\drawable\ic_6.png" />
+    <AndroidResource Include="Resources\drawable\main.png" />
+    <AndroidResource Include="Resources\drawable\ic_launcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PathbuttonLib\PathbuttonLib.csproj">
+      <Project>{296a5614-cf92-4338-8afb-d1c74957cfea}</Project>
+      <Name>PathbuttonLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\android\" />
+    <Folder Include="obj\Debug\assemblies\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\assets\" />
+    <Folder Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\bin\" />
+    <Folder Include="obj\Debug\__library_projects__\PathbuttonLib\library_project_imports\java\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
